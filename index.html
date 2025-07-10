@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Final To-Do List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    ✅ Stay Focused!
+    <div class="quote">"Discipline is doing what needs to be done, even if you don't want to." 💡</div>
+  </header>
+
+  <div class="card todo-card">
+    <h3>📝 My To-Do List</h3>
+    <div class="input-group mb-4">
+      <input type="text" id="todo-input" class="form-control todo-input" placeholder="Add a new task..." />
+      <button class="btn btn-primary" onclick="addTask()">Add</button>
+    </div>
+    <ul class="list-unstyled todo-list" id="todo-list"></ul>
+    <div id="empty-message" class="empty-state">No tasks yet. Let's get things done! 🚀</div>
+  </div>
+
+  <footer>
+    <div>Made with ❤️ by <strong>Aditya Verma</strong></div>
+    <div class="footer-links">
+      <a href="https://github.com/AdityaVerma0899"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/aditya-verma-837798227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/acoustic_aditya?igsh=NXNjaHBucGtsNTRq"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
